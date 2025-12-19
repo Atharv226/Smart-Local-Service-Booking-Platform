@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+body {
+    @apply bg-campusBg text-campusText antialiased;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Inter', 'Poppins', sans-serif;
+}
+
+  #root {
+    @apply min-h-screen;
+  }
+}
+
